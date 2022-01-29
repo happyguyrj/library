@@ -1,0 +1,6 @@
+- threads allow multiple actions to be performed at a time in a single process
+- single process can have mulitple threads working at same time
+- like process, thread is an independent path of execution that runs in isolation
+- each thread has its own stack and its own local variables
+- all threads share memory with each other, have access to global variables
+- threads are more closely connected to each other than processes
