@@ -2,8 +2,8 @@ package com.example.application.multithreading.deadLockExample;
 
 public class Kitchen {
 
-    public static Object spoon = new Object();
-    public static Object bowl = new Object();
+    public static final Object spoon = new Object();
+    public static final Object bowl = new Object();
 
     public static void main(String[] args) {
         Thread cook1 = new Thread(() -> {
