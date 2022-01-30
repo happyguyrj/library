@@ -39,7 +39,7 @@ public class DirectoriesExample {
         try {
             Files.copy(sourcePath, destPath);
         } catch (IOException e) {
-            
+
         }
     }
 }
