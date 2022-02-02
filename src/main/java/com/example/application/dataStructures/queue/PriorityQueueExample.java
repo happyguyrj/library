@@ -1,4 +1,4 @@
-package com.example.application.dataStructures.queue.priorityQueueExample;
+package com.example.application.dataStructures.queue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

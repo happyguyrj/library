@@ -1,4 +1,4 @@
-package com.example.application.dataStructures.queue.linkedListQueue;
+package com.example.application.dataStructures.queue;
 
 import java.util.Comparator;
 

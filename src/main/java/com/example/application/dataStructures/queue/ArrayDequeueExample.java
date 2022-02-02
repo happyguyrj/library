@@ -1,13 +1,12 @@
-package com.example.application.dataStructures.queue.linkedListQueue;
+package com.example.application.dataStructures.queue;
 
-import java.util.LinkedList;
-import java.util.PriorityQueue;
+import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class LinkedListQueueExample {
+public class ArrayDequeueExample {
 
-    static Queue<Integer> queue = new LinkedList<>() {};
-    static Queue<Player> players = new PriorityQueue<>(new PlayerSort());
+    static Queue<Integer> queue = new ArrayDeque<>();
+    static Queue<Player> players = new ArrayDeque<>();
 
     public static void main(String[] args) {
         queue.add(1);
